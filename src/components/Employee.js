@@ -34,6 +34,8 @@ const Employee = ({ employee }) => {
                     }>
                     <button onClick={handleShow} className="btn text-warning btn-act" data-toggle="modal"><i className="material-icons">&#xE254;</i></button>
                 </OverlayTrigger>
+                </td>
+                <td>
                 <OverlayTrigger
                     overlay={
                         <Tooltip id={`tooltip-top`}>

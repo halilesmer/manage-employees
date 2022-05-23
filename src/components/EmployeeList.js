@@ -70,7 +70,7 @@ const EmployeeList = () => {
         </div>
       </div>
 
-      <Alert show={showAlert} variant="success">
+      <Alert show={showAlert} variant="success" dismissible>
         Employee List successfully updated!.
       </Alert>
 
@@ -81,7 +81,8 @@ const EmployeeList = () => {
                     <th>Email</th>
                     <th>Address</th>
                     <th>Phone</th>
-                    <th>Actions</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -116,7 +117,7 @@ const EmployeeList = () => {
                 <AddForm />
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button variant="danger" onClick={handleClose}>
                     Close Modal
                 </Button>
             </Modal.Footer>
