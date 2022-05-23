@@ -4,6 +4,10 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 13px;
 }
+a {
+	color: inherit !important; /* blue colors for links too */
+	text-decoration: inherit !important; /* no underline */
+  }
 
 .btn-act {
 	padding: 4px;
